@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+
 from deliveryapp import views 
 from deliveryapp.controller import farmercontroller
 from django.conf.urls import url
